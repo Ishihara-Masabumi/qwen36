@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "dataset": "CohereLabs/global-mgsm",
+  "subset": "ja",
+  "split": "test",
+  "num_examples": 250,
+  "correct": 215,
+  "accuracy": 0.86,
+  "unparsable": 0,
+  "answer_prefix": "答え",
+  "prompting": "zero-shot, non-thinking mode, final line formatted as 答え: <integer>",
+  "engine": "vLLM"
+}
