@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "dataset": "sbintuitions/JCommonsenseQA",
+  "split": "validation",
+  "num_examples": 1119,
+  "correct": 1067,
+  "accuracy": 0.9535299374441466,
+  "unparsable": 0,
+  "prompting": "zero-shot, non-thinking mode, answer with a single digit 0-4",
+  "engine": "vLLM"
+}
